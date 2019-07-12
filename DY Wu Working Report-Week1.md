@@ -127,4 +127,29 @@ BEACAUSE OF THE MEETING WITH YUZHE
 
 12:29-pull this report to git
 		need to pulled the rest of the reports saved in the laptop
- 
+14:20-start to try to complete the data processing code.
+14:50-start to construct test graph data in .json
+14:56-do some modification (test my data processing codes
+15:04-start to test the module
+16:50-rest
+17:20-get back to work
+18:53-finally done! the module sould be ok now
+
+WRITTEN AT 18:55
+今天基本花了一下午写完了能把带stitches的json数据建立一个合并stitches图的数据处理函数
+解决了以下问题：
+	1.合并时某个stitch的neighbor的“conflict”参数可能会随stitch数据的清除而无效的问题
+	2.合并stitch时以前加入到adj_list的节点可能被删掉的，所以要重新指向合并后的节点
+	3.把原来先把所有节点都建立好，再便利节点合并stitch的方法 改为 第一遍建立时就开始合并stitch节点（虽然里面有很多循环）
+		本来觉得第二种会更快，但是感觉在里面加了太多小循环可能会导致不如第一种快（虽然感觉有这种可能性但是应该还是改过之后的快），而且弄得代码很复杂，还没测试，因为应该李巍学长马上就发新数据来了。不过第一种忘记保存了233 所以以后一定要注意保存！！！
+接下来的任务：
+1.要再把 “组合优化解决NP-HARD” 那篇再看下
+2.要把aggregator仔细看懂
+3.把宇哲学长的那个无监督学习的过程的main看懂
+4.下星期一定要开始写监督学习的代码了，看论文的时间也太长了，争取下星期能先实现两种颜色着色、不带stitch的监督学习
+
+问题：
+1.跟老师谈过的那个训练出来的解会有bias的问题，要记得问宇哲学长（自己觉得因为解空间对称，而且只要可行解就够了可能不是什么特别严重的问题，完成目标就行了）
+2.如果做出来结果，该怎么衡量性能呢？ 要看看论文 或者学长有空的时候问
+	因为本来的目标是，冲突越少越好（loss越小），也就是结果又不能保证全对，可能就会有错的节点，那这样一来跟其他大佬们做的结果没办法衡量了 只有loss和时间都比别人小才行
+	但是人家用什么loss又不一定，算出来的loss又没有可比性，而且采用的数据的图的大小也不一样，除非全对比时间，不然怎么比算法到底谁好呢？
