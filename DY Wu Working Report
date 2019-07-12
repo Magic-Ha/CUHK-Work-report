@@ -1,0 +1,23 @@
+7.11
+----------------------------------------------------------
+9:15-Working on the Codes:start to read again try to under stand how the whole project works.
+9:32-with the help of TS addressed the problem of the printer, at least I can log in the web printer and print PDFnow
+9:35-get back to work
+9:45-需要学习Python的面向对象设计
+		以前用的都是比较简单的类定义，并不知道super是什么
+10:55-have a rest
+11:10-已经看完了supervisedmodel 基本懂了还有些细节不懂 先继续看encoder
+11:40-开始看aggregator，encoder基本懂了？ 还有些细节不懂，记得问学长
+12:10-基本没懂aggregator怎么实现的，好多语句都不知道在干嘛，就只看懂了前面一小部分，都没找到paper里面的公式是在哪里实现的.希望下午休息之后再回来看能看懂555
+
+14:45-开始尝试码数据的预处理
+15:15-learn how to use "networkx" which is much more convinient when you set up a graphdata
+18:04-already began to coding the data processing codes 开始写数据处理程序的之前忘写这个条目了
+		目前还有问题：如果有一个节点的stitch节点的neighbor被加进来后，这个neighbor其实也是另外一个节点的stitch，之后又被后面的节点融合了导致这个stitch的ID没有了怎么办？
+		目前想到的解决办法：该加还得加，加的时候就要在这个stitch的conflict中做修改，改成与item conflict，之后再融合的时候因为要看stitch跟谁conflict，所以融合的时候还是会把与item conflict的这个关系在加到融合后的节点上.
+		另外想到的解决方案：如果有融合把节点的ID设成一个list？ 如果上面那种不行可以试试这种.
+
+WRITTEN AT 18:16 NEED TO GO HOME EARLY
+BEACAUSE THE MEETING,STILL NOT SURE WHEN TO START, WITH YUZHE, TALKING IN 115 WILL MAKE OTHERS UNCOMFORTABLE
+
+等会讨论开始的时候记得接着写周报，不要忘记！
