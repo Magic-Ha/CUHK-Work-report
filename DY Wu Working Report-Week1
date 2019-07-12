@@ -1,3 +1,84 @@
+WORKS DONE THIS WEEK FROM 7.8 TO 7.12
+
+7.8
+-------------------------------------------------------------------------------
+ 9:00-办理入职手续
+ 9:20-Apply for a new computer
+ 9:25-Reading papers about "High performance GCN" and the Review paper
+12:45-Going through the code in the GCN-coloring project
+14:10-Meeting with LiWei and asked him some questions about the codes
+14:40-Try to solve the problem that I can not log in with my account to the Windows system on the new cumputer. And with the help of the kind staff, the problem is solved.
+15:00-Resume the reading task
+16:00-Set up the whole pytorch environment on the new PC
+18:00-Read the "New user" Instructions and try to connect to the printer in 115
+7:00-Failed to address the problem, switch to the reading task
+
+WRITTEN AT 8:30 ABOUT TO GO HOME
+Problems still existing:
+1. the printer is still not accessible
+2. the too many concepts in the Layout problems need to be understand
+3. just started to read "High performance GCN"
+4. still confused about the codes (maybe it is because of the lack of knowledge in this area) need to read carefully about the paper "High performance GCN"
+
+仅仅过一遍论文可能不够，需要后续的再一遍的细致阅读之后再看代码，否则也是浪费时间
+今天一点休息时间都没有但是也并没有工作很多 主要是干了许多与学习无关的事，手续、熟悉环境什么的浪费了许多时间，明天需要注意。
+
+
+7.9
+-------------------------------------------------------------------------------
+9:05-Working on "High performance GCN"
+10:45-Finished the first time of reading "GCN"
+		found that it is a little bit different from the problem we are working on, and find myself do not understand some part of the paper, especially the computing part. Need a second time of reading.
+11:10-start to google the concepts which I do not know in the "Review" paper
+12:30-rest
+14:00-keep working on the paper		
+		Figured out some of the common problem and algorithm mentioned in the passage, but still confused by some of those concepts. Need a second time of careful reading about the computing algorithm of this paper 
+16:00-rest
+17:30-test the pytorch environment with cuda. 
+		Found that the GPU's parameter is only 3.0 and the pytorch now only support those who are higer than(>=) 3.5
+		so dissapointed. but at least I can still use CUP to run my hand-gesture network built 2 months ago
+18:00-test the "Dropbox" and "Github shell"
+		find out that none of the app installed on this computer can not connect to the Internet exept those which are installed together with the system.
+		Tried to solve the problem but all the methods do not work
+
+Problem existing today:
+1.finished the two paper, but only a simple going through, need to work more deeply to with questions.
+2.the computer is so weird and can not be fixed. a little bit pissed off. finally go back to the google drive and the web version of wechat
+
+WRITTEN AT 7:30 GOING HOME 
+
+电脑除了随系统安装好的应用之外都会 CONNECTION TIME OUT 也太诡异了。。。。。放弃，明天也不要搞这个了，用谷歌云算了
+今天查概念和算法的时候搞懂了一些昨天的问题，但是问题依旧很多，需要明天再仔细看一遍training和inference F2、F3还有Algorithm 1 明天也要仔细看，今天理解个差不多了，明天带着今天的问题再仔细看一遍，争取解决之后开始看代码
+
+7.10
+-------------------------------------------------------------------------------
+9:35-READING "High performance GCN" for the second time especially on the middle of the passage.
+		great, although have more questions but got the filling that I am really into it.
+12:30-rest have lunch
+提醒！下午来要记得去9楼饮水机找找伞
+
+提醒！周五下午3点半开会！
+14:45-reading "review"
+		basically know the key idea and approaches to solving the problem
+15：30-have a review on 运筹学
+		基本又捡起来了
+		疑问：加松弛之后感觉有点像softmax 但是感觉也不太好分类，虽然解方便了但是对感觉对分类并不好 虽然可以设个阈值什么的
+吃饭前记得联系学长
+
+WRITTEN AT 18:45 
+今天效率还挺高的，虽然一整天只是又把这两篇看了一遍，但是感觉重看一遍收获是不少，又解决了一些第一遍看提的很蠢的问题。。。不过今天又看出来很多问题，算是自己有思考了
+
+
+今天的重要问题：
+1.错误覆盖率？
+2.分阶段分类的overfitting疑问
+3.encoding 和 aggregating的过程有一些细节问题虽然解决了但是上次看的unseen节点到底是啥意思又给忘了，记得问
+4.inference的矩阵形式的计算到底哪里简化了0.0 记得问
+5.跟论文写作有关的问题：数据结构的构建也可以写道论文里嘛？ 论文里除了算法和实验结果到底其他还要不要呈现了，记得问老师
+6.不能观 不能控是不是自控学的那个？ CP OP还有那个图一直没搞懂要表达啥 记得问
+
+感觉明天可以开始看代码了，还有看剩下的一篇论文。
+
 7.11
 ----------------------------------------------------------
 9:15-Working on the Codes:start to read again try to under stand how the whole project works.
@@ -19,10 +100,17 @@
 
 WRITTEN AT 18:16 NEED TO GO HOME EARLY
 BEACAUSE OF THE MEETING WITH YUZHE
-7:25-Ask few questions about the papers and the codes
+19:25-Ask few questions about the papers and the codes
 		need to work harder on the paper, especially the part where the simplified method is presented.
 		need to work harder on the code"aggregateor"
 		WRITE CASES TO TEST THOSE CODES!
+20:40-记录问题
+		明天要再看GCN的aggregator简化问题
+		要进行数据处理，明天争取把数据处理写完
+		还要把aggregator再看懂到底是什么实现的
+		用宇哲学长的方法，要记得多写case测试
+		学习一下怎么用jupyter
+
 
 7.12
 -------------------------------------------------------------
