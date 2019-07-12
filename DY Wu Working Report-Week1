@@ -18,6 +18,25 @@
 		另外想到的解决方案：如果有融合把节点的ID设成一个list？ 如果上面那种不行可以试试这种.
 
 WRITTEN AT 18:16 NEED TO GO HOME EARLY
-BEACAUSE THE MEETING,STILL NOT SURE WHEN TO START, WITH YUZHE, TALKING IN 115 WILL MAKE OTHERS UNCOMFORTABLE
+BEACAUSE OF THE MEETING WITH YUZHE
+7:25-Ask few questions about the papers and the codes
+		need to work harder on the paper, especially the part where the simplified method is presented.
+		need to work harder on the code"aggregateor"
+		WRITE CASES TO TEST THOSE CODES!
 
-等会讨论开始的时候记得接着写周报，不要忘记！
+7.12
+-------------------------------------------------------------
+9:05-read the "High performance GCN" to figure out what is the aggregator is doing with the code of this part
+		figured out why there are duplicate computation and why it could avoid the duplicate computation using adjacent matrix(list).
+		reconsiderd the stage-classification "overfitting" problem I had(the previous stages do contribute to the final result directly by filtering out the correctly classified negative nodes stage by stage)
+10:30-start to focous on Dataprocessing,coding
+		find out the all the graph data do not have coloring solutions.
+10:40-start to have a look at the "NP-Hard" paper 
+		We do need labeled data
+10:42-ask for new data
+11:00-try to address the proxy problem this computer have
+12:10-finally fixed the proxy problem that all the installed apps have, including git and Wechat
+
+12:29-Working Report pull to git
+		need to pull the rest report which is on the laptop to git
+Attention: meeting at 15:30!
