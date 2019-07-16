@@ -1,5 +1,5 @@
 7.15
-------------------------------------------------------------------
+=====================================================================
 9:00-apply for the CU link
 		I did not expect it will take so much time.
 		need to work more effective and maybe do not rest until night
@@ -25,11 +25,13 @@
 		So I think maybe we can do something to address it, or, maybe My Problem is even not a problem to this method 233
 20:30-going home
 
-##总结
+总结
+----------------------------------------------------------------------
 	今天的有一些新问题 但是主要还是在看学长的代码和paper的代码。 TensorFlow的代码比较难看懂，不过学长的代码结合着以前大致浏览过的几篇文章和GraphSAGE的代码 基本都看懂了
 	也搞清楚了为什么用矩阵，不用迭代，能节省计算了。
 
-##今天的重要问题
+今天的重要问题
+----------------------------------------------------------------------
 	1.组合优化那篇文章里的问题记得问学长
 	2.发现学长给的数据里一个奇怪的问题：有些节点并不在文件中出现
 		估计这个问题学长要解决一阵子了 因为他有好多别的work要做
@@ -38,7 +40,7 @@
 
 
 7.16
---------------------------------------------------------------------
+======================================================================
 9:00-address the CU Link problem and hand in the application form for the GPUPU
 		要老师签字的 下次individual meeting记得找老师签字
 9:20-have a look at the problem yestoday and read the combinatorial paper 
